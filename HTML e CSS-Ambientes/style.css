@@ -1,8 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: white;
 }
 
-strong {
+.titulo-destaque {
     color: aqua;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 50;
+    width: 50;
 }
