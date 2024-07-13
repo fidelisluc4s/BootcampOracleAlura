@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+    font-size: 50px;
+}
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.imagem{
+    max-width: 100%;
+    height: auto;
+}
