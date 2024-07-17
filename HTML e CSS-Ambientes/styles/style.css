@@ -6,9 +6,29 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
+    color: white;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover{
     color: white;
 }
 
@@ -17,7 +37,7 @@ body {
 }
 
 .apresentacao {
-    margin: 5% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,4 +105,13 @@ body {
 
 .apresentacao__links__link:hover{
     background-color: #272727;
+}
+
+.rodape{
+    color: #000000;
+    background-color: #22d4fd;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
