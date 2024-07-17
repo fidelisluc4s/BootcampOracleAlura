@@ -24,8 +24,11 @@ body {
 }
 
 img {
-    height: 448px;
-    width: 550px;
+    height: 300px;
+    width: 400px;
+    border-radius: 16px;
+    border: 10px solid #22d4fd;
+    margin: 5px;
 }
 
 .apresentacao__conteudo {
