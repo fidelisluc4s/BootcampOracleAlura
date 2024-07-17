@@ -17,22 +17,25 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 img {
-    height: 300px;
-    width: 400px;
+    height: 450px;
+    width: 500px;
     border-radius: 16px;
-    border: 10px solid #22d4fd;
+    border: 3px solid #22d4fd;
     margin: 5px;
 }
 
 .apresentacao__conteudo {
    width: 615px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -47,20 +50,27 @@ img {
 
 .apresentacao__links{
     display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
 }
 
+.acesso__rede{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao__links__link {
-    background-color: #22d4fd;
-    width: 280px;
+    width: 378px;
     text-align: center;
     border-radius: 16px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration:none;
     font-weight: 600;
-    color: #000;
+    color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
-
-
+    border: 2px solid #22d4fd;
 }
